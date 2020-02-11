@@ -25,8 +25,8 @@ namespace AwesomeApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            AppCenter.Start("6923ad54-19fa-46ed-9703-7fa52b2d3ef3",
-                   typeof(Analytics), typeof(Crashes));
+           // AppCenter.Start("6923ad54-19fa-46ed-9703-7fa52b2d3ef3",
+            //       typeof(Analytics), typeof(Crashes));
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
